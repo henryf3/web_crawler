@@ -10,7 +10,7 @@ n_titles = 0
 class TestCode(unittest.TestCase):
     #To test if the request was succesful 
     def test_request(self):
-        self.assertEqual(response.status_code,200, "Should be 6")
+        self.assertEqual(response.status_code,200, "Should be 200")
     #To test if there are 30 positions in the requested info
     def test_positions(self):
         self.assertEqual(n_positions,30, "Should be 30")
